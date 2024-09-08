@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff80;
+  color: black;
+  border-radius: 20px;
+  padding: 0 30px 30px;
+  margin: 40px 0 10px;
+}
+
+.card__photo {
+  width: 200px;
+  border-radius: 8px;
+}
+
+.card-info {
+  width: 200px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.card-check {
+  display: flex;
+  flex-direction: row;
+}
